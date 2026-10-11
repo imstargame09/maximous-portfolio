@@ -1,0 +1,695 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore INSURE-TRACK, an insurance management
+          and data analytics system developed by Maximous
+          Ladjabangsa using Flask, MySQL, and Chart.js.">
+
+    <title>INSURE-TRACK Case Study | Maximous Ladjabangsa</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <!-- Portfolio Favicon -->
+<link
+    rel="icon"
+    type="image/svg+xml"
+    href="../assets/favicon.svg"
+>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+        <nav class="navbar container"
+             aria-label="Main navigation">
+
+            <a href="../index.html" class="logo">
+                Maximous<span>.</span>
+            </a>
+
+            
+<!-- Navigation Links -->
+        <ul class="nav-links" id="nav-links">
+
+            <li>
+                <a href="../index.html">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="../index.html#about">
+                    About
+                </a>
+            </li>
+
+            <li>
+                <a href="../index.html#experience">
+                    Experience
+                </a>
+            </li>
+
+            <li>
+                <a href="../index.html#projects" class="active">
+                    Projects
+                </a>
+            </li>
+
+            <li>
+                <a href="../index.html#contact" class="nav-contact">
+                    Let's Talk
+                </a>
+            </li>
+        </ul>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PROJECT INTRODUCTION -->
+        <section class="case-study-hero">
+            <div class="container">
+
+                <a href="../index.html#projects"
+                   class="back-link">
+                    &larr; Back to Projects
+                </a>
+
+                <div class="case-study-intro">
+
+                    <span class="section-label">
+                        FEATURED CAPSTONE PROJECT
+                    </span>
+
+                    <h1>
+                        INSURE-TRACK
+                        <span>Insurance Analytics Platform.</span>
+                    </h1>
+
+                    <p>
+                        An integrated data analytics and visualization
+                        system designed to centralize insurance
+                        information, simplify policy and claims
+                        monitoring, and provide meaningful
+                        business insights.
+                    </p>
+
+                </div>
+
+                <!-- PROJECT DETAILS -->
+                <div class="case-study-meta">
+
+                    <div>
+                        <span>PROJECT TYPE</span>
+                        <strong>Academic Capstone</strong>
+                    </div>
+
+                    <div>
+                        <span>MY ROLE</span>
+                        <strong>Full-Stack Development</strong>
+                    </div>
+
+                    <div>
+                        <span>TECHNOLOGIES</span>
+                        <strong>Flask, MySQL, Chart.js</strong>
+                    </div>
+
+                    <div>
+                        <span>STATUS</span>
+                        <strong>Completed</strong>
+                    </div>
+
+                </div>
+
+                <!-- MAIN PROJECT SCREENSHOT -->
+                <div class="case-study-cover">
+                    <img
+                        src="../assets/insure-track-dashboard.png"
+                        alt="INSURE-TRACK insurance analytics dashboard"
+                        loading="eager"
+                    >
+                </div>
+                <!-- SYSTEM PREVIEW GALLERY -->
+                <section class="case-study-gallery">
+                    <div class="gallery-header">
+                        <span class="section-label">SYSTEM PREVIEW</span>
+                        <h2>Key <span>Screens.</span></h2>
+                        <p>
+                            A closer look at some of the main interfaces
+                            I designed and developed for INSURE-TRACK.
+                        </p>
+                    </div>
+
+                    <div class="gallery-grid">
+
+                        <!-- Dashboard Screenshot -->
+                        <article class="gallery-card">
+                            <img
+                                src="../assets/insure-track-dashboard.png"
+                                alt="INSURE-TRACK dashboard overview"
+                                loading="lazy"
+                            >
+
+                            <div class="gallery-card-content">
+                                <h3>Dashboard Overview</h3>
+                                <p>
+                                    Displays KPIs, provider data, policy summaries,
+                                    claims metrics, and business insights in one
+                                    centralized view.
+                                </p>
+                            </div>
+                        </article>
+
+                        <!-- Charts Screenshot -->
+                        <article class="gallery-card">
+                            <img
+                                src="../assets/insure-track-charts.png"
+                                alt="INSURE-TRACK charts and analytics"
+                                loading="lazy"
+                            >
+
+                            <div class="gallery-card-content">
+                                <h3>Analytics & Charts</h3>
+                                <p>
+                                    Visualizes top providers, claim status,
+                                    policy trends, and other operational data
+                                    to support monitoring and decision-making.
+                                </p>
+                            </div>
+                        </article>
+
+                        <!-- Login Screenshot -->
+                        <article class="gallery-card">
+                            <img
+                                src="../assets/insure-track-login.png"
+                                alt="INSURE-TRACK login page"
+                                loading="lazy"
+                            >
+
+                            <div class="gallery-card-content">
+                                <h3>Login Interface</h3>
+                                <p>
+                                    A modern login page designed to provide
+                                    secure and role-based access for users
+                                    of the INSURE-TRACK platform.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+                
+                <!-- ========== PROJECT OVERVIEW ========== -->
+                <section class="project-overview">
+
+                    <div class="overview-header">
+                        <span class="section-label">BEHIND THE PROJECT</span>
+
+                        <h2>
+                            About <span>INSURE-TRACK.</span>
+                        </h2>
+
+                        <p>
+                            A closer look at the problem, my development
+                            approach, and the solution I created.
+                        </p>
+                    </div>
+
+                    <div class="overview-grid">
+
+                        <!-- Project Background -->
+                        <div class="overview-content">
+
+                            <h3>The Project</h3>
+
+                            <p>
+                                INSURE-TRACK is my academic capstone project,
+                                developed as an integrated data analytics and
+                                visualization system for a multi-HMO and
+                                insurance agency in Valenzuela City.
+                            </p>
+
+                            <p>
+                                The system was designed to centralize insurance
+                                information, including providers, members,
+                                policies, claims, and renewal records.
+                            </p>
+
+                            <p>
+                                It helps authorized users organize records,
+                                monitor insurance operations, and interpret
+                                information through interactive dashboards
+                                and reports.
+                            </p>
+
+                            <h3>The Problem</h3>
+
+                            <p>
+                                Managing information across multiple insurance
+                                providers can make it difficult to maintain
+                                consistent records, monitor policy renewals,
+                                and prepare accurate reports.
+                            </p>
+
+                            <p>
+                                INSURE-TRACK was designed to address these
+                                challenges by bringing essential insurance
+                                information into one centralized platform.
+                            </p>
+
+                        </div>
+
+                        <!-- My Role -->
+                        <div class="overview-role">
+
+                            <span class="role-label">MY CONTRIBUTION</span>
+
+                            <h3>Full-Stack Development</h3>
+
+                            <p>
+                                I worked on developing the system's
+                                frontend, backend, database structure,
+                                and analytics features.
+                            </p>
+
+                            <ul>
+                                <li>
+                                    Developed backend functionality
+                                    using Python and Flask.
+                                </li>
+
+                                <li>
+                                    Designed and managed relational
+                                    database records using MySQL.
+                                </li>
+
+                                <li>
+                                    Built dashboards and interactive
+                                    charts using Chart.js.
+                                </li>
+
+                                <li>
+                                    Implemented role-based access
+                                    for administrators, staff,
+                                    and clients.
+                                </li>
+
+                                <li>
+                                    Developed modules for providers,
+                                    members, policies, claims,
+                                    and reporting.
+                                </li>
+
+                                <li>
+                                    Worked on testing, debugging,
+                                    and improving the user interface.
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <!-- AI-ASSISTED DEVELOPMENT -->
+                    <div class="development-approach">
+
+                        <div class="approach-icon">
+                            &#10024;
+                        </div>
+
+                        <div class="approach-content">
+
+                            <span class="section-label">
+                                MY DEVELOPMENT APPROACH
+                            </span>
+
+                            <h3>
+                                Building with AI-Assisted Development
+                            </h3>
+
+                            <p>
+                                I use AI-assisted development as part of
+                                my programming workflow, helping me
+                                brainstorm solutions, understand code,
+                                troubleshoot issues, and improve
+                                application features.
+                            </p>
+
+                            <p>
+                                Rather than relying on generated code
+                                without review, I focus on understanding
+                                how the system works, testing features,
+                                and refining the final implementation.
+                            </p>
+
+                            <div class="approach-tags">
+                                <span>AI-Assisted Coding</span>
+                                <span>Problem Solving</span>
+                                <span>Debugging</span>
+                                <span>Testing</span>
+                            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========== END PROJECT OVERVIEW ========== -->
+ 
+<!-- ========== SYSTEM FEATURES ========== -->
+<section class="system-features">
+
+    <div class="features-heading">
+        <span class="section-label">WHAT I BUILT</span>
+
+        <h2>Core System <span>Features.</span></h2>
+
+        <p>
+            INSURE-TRACK combines insurance record management,
+            analytics, and role-based access in one platform.
+        </p>
+    </div>
+
+    <div class="features-grid">
+
+        <article class="feature-card">
+            <span class="feature-icon">📊</span>
+            <h3>Analytics Dashboard</h3>
+            <p>
+                Interactive charts and KPIs for claims,
+                policies, providers, premiums, and renewals.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-icon">🗃️</span>
+            <h3>Data Management</h3>
+            <p>
+                Centralized records for insurance providers,
+                members, policies, and claims.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-icon">🔐</span>
+            <h3>Role-Based Access</h3>
+            <p>
+                Separate access and permissions for
+                Administrators, Authorized Users, and Clients.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-icon">📈</span>
+            <h3>Reports & Visualization</h3>
+            <p>
+                Chart.js visualizations, status summaries,
+                and CSV exports for reporting.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-icon">📅</span>
+            <h3>Renewal Monitoring</h3>
+            <p>
+                Policy renewal information and upcoming
+                renewal tracking to support follow-ups.
+            </p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-icon">📝</span>
+            <h3>Activity & Client Reports</h3>
+            <p>
+                System activity logs and client-submitted
+                reports for reviewing discrepancies.
+            </p>
+        </article>
+
+    </div>
+
+    <!-- TECHNICAL ARCHITECTURE -->
+    <div class="architecture-section">
+
+        <span class="section-label">BEHIND THE CODE</span>
+
+        <h2>Technical <span>Architecture.</span></h2>
+
+        <p>
+            A high-level overview of the technologies
+            powering INSURE-TRACK.
+        </p>
+
+        <div class="architecture-flow">
+
+            <div class="architecture-box">
+                <span>FRONTEND</span>
+                <h3>HTML, CSS & JavaScript</h3>
+                <p>Responsive interface and Chart.js</p>
+            </div>
+
+            <div class="architecture-arrow">↓</div>
+
+            <div class="architecture-box">
+                <span>BACKEND</span>
+                <h3>Python & Flask</h3>
+                <p>Application routes and business logic</p>
+            </div>
+
+            <div class="architecture-arrow">↓</div>
+
+            <div class="architecture-box">
+                <span>DATABASE</span>
+                <h3>MySQL</h3>
+                <p>Structured insurance and user records</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ========== END SYSTEM FEATURES ========== -->
+
+<!-- ========== CHALLENGES & LEARNINGS ========== -->
+<section class="project-learnings">
+
+    <div class="learnings-header">
+        <span class="section-label">THE DEVELOPMENT JOURNEY</span>
+
+        <h2>
+            Challenges, Solutions &
+            <span>Lessons Learned.</span>
+        </h2>
+
+        <p>
+            Building INSURE-TRACK helped me strengthen
+            my problem-solving skills and understand
+            how different technologies work together.
+        </p>
+    </div>
+
+    <div class="learnings-grid">
+
+        <!-- Challenge 1 -->
+        <article class="learning-card">
+            <span class="learning-number">01</span>
+
+            <h3>Organizing Insurance Data</h3>
+
+            <p class="learning-subtitle">The Challenge</p>
+            <p>
+                Designing a system that could manage
+                information from multiple insurance
+                providers while keeping related records
+                organized and consistent.
+            </p>
+
+            <p class="learning-subtitle">My Approach</p>
+            <p>
+                I used MySQL to structure records for
+                members, providers, policies, and claims,
+                and connected those records through
+                Flask application functionality.
+            </p>
+        </article>
+
+        <!-- Challenge 2 -->
+        <article class="learning-card">
+            <span class="learning-number">02</span>
+
+            <h3>Transforming Data Into Insights</h3>
+
+            <p class="learning-subtitle">The Challenge</p>
+            <p>
+                Making insurance information easier
+                to interpret instead of presenting
+                users with tables of raw records.
+            </p>
+
+            <p class="learning-subtitle">My Approach</p>
+            <p>
+                I developed interactive charts
+                and KPI summaries using Chart.js
+                to visualize policies, claims,
+                premiums, and provider performance.
+            </p>
+        </article>
+
+        <!-- Challenge 3 -->
+        <article class="learning-card">
+            <span class="learning-number">03</span>
+
+            <h3>Managing Different User Roles</h3>
+
+            <p class="learning-subtitle">The Challenge</p>
+            <p>
+                Creating an application where
+                administrators, authorized users,
+                and clients have different
+                access permissions.
+            </p>
+
+            <p class="learning-subtitle">My Approach</p>
+            <p>
+                I implemented role-based access
+                controls and separate application
+                interfaces based on the permissions
+                assigned to each user type.
+            </p>
+        </article>
+
+    </div>
+
+    <!-- Lessons Learned -->
+    <div class="lessons-highlight">
+
+        <div class="lessons-icon">✦</div>
+
+        <div>
+            <span class="section-label">PERSONAL REFLECTION</span>
+
+            <h3>What This Project Taught Me</h3>
+
+            <p>
+                INSURE-TRACK helped me strengthen my
+                understanding of full-stack web development,
+                relational databases, data visualization,
+                debugging, and application testing.
+            </p>
+
+            <p>
+                It also taught me the importance of
+                understanding the purpose behind each
+                feature, validating application behavior,
+                and continuously improving my work.
+                Through AI-assisted development,
+                I learned to approach technical
+                challenges with curiosity while
+                taking responsibility for reviewing
+                and testing the final results.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<!-- ========== END CHALLENGES & LEARNINGS ========== -->
+
+<!-- ========== PROJECT ENDING ========== -->
+<section class="project-ending">
+
+    <div class="project-ending-content">
+
+        <span class="section-label">
+            THANK YOU FOR EXPLORING
+        </span>
+
+        <h2>
+            Enjoyed This <span>Project?</span>
+        </h2>
+
+        <p>
+            INSURE-TRACK is one of the projects that
+            helped me develop my skills in full-stack
+            development, data analytics, and problem-solving.
+
+            Explore my other projects to see more of my
+            technical experience and ongoing learning journey.
+        </p>
+
+        <div class="project-ending-buttons">
+            <a href="../index.html#projects" class="btn">
+                &larr; Explore More Projects
+            </a>
+
+            <a href="mailto:maximousmatibag@gmail.com"
+               class="btn-outline">
+                Get in Touch &rarr;
+            </a>
+        </div>
+
+    </div>
+
+</section>
+<!-- ========== END PROJECT ENDING ========== -->
+
+            </div>
+        </section>
+
+    </main>
+    
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+    <div class="container footer-content">
+
+        <a href="../index.html" class="logo">
+            Maximous<span>.</span>
+        </a>
+
+        <p>
+            Designed and developed with curiosity,
+            creativity, and AI-assisted coding.
+        </p>
+
+        <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#projects">Projects</a>
+            <a href="mailto:maximousmatibag@gmail.com">
+                Contact
+            </a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="current-year">2026</span>
+                Maximous Ladjabangsa. All rights reserved.
+            </p>
+        </div>
+
+    </div>
+</footer>
+<!-- ========== END FOOTER ========== -->
+
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
